@@ -12,3 +12,8 @@ login.addEventListener('click', () => {
     }
 })
 
+// jQuery version of the above functionality
+$('#login').click(() => {
+    $('#loginMenu').toggle()
+})
+
