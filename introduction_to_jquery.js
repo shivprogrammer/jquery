@@ -17,3 +17,9 @@ $('#login').click(() => {
     $('#loginMenu').toggle()
 })
 
+// jquery code for the first exercise
+$('.login-button').on('click', () => {
+    $('.login-form').toggle();
+});
+
+// NOTICE HOW THERE IS A DIFFERENCE IN THE TWO WAYS THAT YOU CAN CALL CLICK
